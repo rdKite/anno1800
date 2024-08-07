@@ -1,13 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Banner from './components/Banner.vue'
+import World from "./components/World.vue";
 </script>
 
 <template>
+  <header>
+    <Banner></Banner>
+  </header>
   <main>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <World></World>
   </main>
 </template>
 
